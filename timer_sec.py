@@ -2,7 +2,7 @@
 import time
 
 def timer():
-  duration = int(input("How may seconds: "))
+  duration = int(input("How many seconds: "))
   start = input("Type 'go' to start: ")
   if start == "go":
     print("TIMER STARTED")
@@ -13,8 +13,8 @@ def timer():
       print(i)
       time.sleep(1)
       i += 1
-      if i == duration:
-        print("DONE")
+      # if i == duration:
+    print("DONE")
   else:
     print("try again...")
     
